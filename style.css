@@ -46,7 +46,7 @@
 .logo {
 	text-transform: uppercase;
 	cursor: pointer;
-	font-size: 40px;
+	font-size: 35px;
 }
 
 .toggle {
@@ -55,7 +55,7 @@
 	height: 60px;
 	background: url(./assets/bars-solid.svg);
 	background-repeat: no-repeat;
-	background-size: 35px;
+	background-size: 30px;
 	background-position: center;
 	cursor: pointer;
 }
@@ -63,7 +63,7 @@
 .toggle.active {
 	background: url(./assets/times-solid.svg);
 	background-repeat: no-repeat;
-	background-size: 30px;
+	background-size: 25px;
 	background-position: center;
 	cursor: pointer;
 }
@@ -81,4 +81,69 @@
 .text {
 	position: relative;
 	z-index: 10;
+}
+
+.text h2 {
+	font-size: 5em;
+	font-weight: 800;
+	line-height: 1em;
+	text-transform: uppercase;
+}
+
+.text h3 {
+	font-size: 4em;
+	font-weight: 700;
+	line-height: 1em;
+	text-transform: uppercase;
+}
+
+.text p {
+	font-size: 1.1em;
+	margin: 20px 0;
+	font-weight: 400;
+	max-width: 700px;
+}
+
+.text a {
+	display: inline-block;
+	font-size: 1em;
+	background: #fff;
+	border-radius: 10px;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 500;
+	margin-top: 10px;
+	color: #111;
+	letter-spacing: 2px;
+	transition: 0.3s;
+}
+
+.text a:hover {
+	letter-spacing: 6px;
+}
+
+.social {
+	position: absolute;
+	z-index: 10;
+	bottom: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social li {
+	list-style: none;
+}
+
+.social li a {
+	display: inline-block;
+	margin-right: 40px;
+	color: #fff;
+	font-size: 1.8em;
+	transition: 0.5s;
+}
+
+.social li a:hover {
+	transform: translateY(-12px);
 }
